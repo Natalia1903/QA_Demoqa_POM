@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage{
     public HomePage(WebDriver driver) {
+
         super(driver);
     }
 
@@ -14,10 +15,15 @@ public class HomePage extends BasePage{
     WebElement bookStoreAppTitle;
 
     public BookStorePage selectBookStoreApp() {
-        clickWithJSExecutor(bookStoreAppTitle,0,600);
+        clickWithJSExecutor(bookStoreAppTitle,0,500);
         return new BookStorePage(driver);
-
     }
 
+    @FindBy(xpath = "//*[@class='category-cards']/*[3]")
+    WebElement alertsFrameWindows;
 
+    public SidePanelPage selectAlertsFrameWindows() {
+        clickWithJSExecutor(alertsFrameWindows,0,300);
+        return new SidePanelPage(driver);
+    }
 }
