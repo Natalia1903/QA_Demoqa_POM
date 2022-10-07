@@ -1,5 +1,6 @@
-package com.telran.pages;
+package com.telran.pages.bookstore;
 
+import com.telran.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

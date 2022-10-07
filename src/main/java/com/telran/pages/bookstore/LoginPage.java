@@ -1,10 +1,11 @@
-package com.telran.pages;
+package com.telran.pages.bookstore;
 
+import com.telran.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginPage extends BasePage{
+public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
         super(driver);
     }
@@ -18,7 +19,7 @@ public class LoginPage extends BasePage{
     @FindBy( id="login")
     WebElement loginBtn;
 
-    public ProfilePage login(String name,String pwd) {
+    public ProfilePage login(String name, String pwd) {
         type(userName,name);
         type(password,pwd);
         click(loginBtn);

@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
-    WebDriver driver;
+    public WebDriver driver;
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
