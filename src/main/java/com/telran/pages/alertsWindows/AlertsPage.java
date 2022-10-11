@@ -9,18 +9,22 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AlertsPage extends BasePage {
 
-    public AlertsPage(WebDriver driver){
+    public AlertsPage(WebDriver driver) {
+
         super(driver);
     }
-    @FindBy(id="timerAlertButton")
+
+    @FindBy(id = "timerAlertButton")
     WebElement timerAlertButton;
 
     public AlertsPage acceptTimerAlert() {
         click(timerAlertButton);
-        WebDriverWait wait = new WebDriverWait(driver,5);
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.alertIsPresent()).accept();
         return this;
     }
+
+
     @FindBy(id = "confirmButton")
     WebElement confirmButton;
 
@@ -40,11 +44,11 @@ public class AlertsPage extends BasePage {
 
         return confirmResult.getText();
     }
-    @FindBy(id = "promtButton")
-    WebElement promtButton;
+    @FindBy(id = "promptButton")
+    WebElement promptButton;
 
     public AlertsPage sendTextTOAlert(String message) {
-        clickWithJSExecutor(promtButton,0,200);
+        clickWithJSExecutor(promptButton,0,200);
         if(message != null){
             driver.switchTo().alert().sendKeys(message);
         }

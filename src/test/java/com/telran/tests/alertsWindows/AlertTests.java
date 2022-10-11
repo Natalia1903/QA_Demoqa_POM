@@ -17,6 +17,7 @@ public class AlertTests extends TestBase {
     }
     @Test
     public void alertSeeTest(){
+
         new AlertsPage(driver).acceptToSeeAlert();
     }
 

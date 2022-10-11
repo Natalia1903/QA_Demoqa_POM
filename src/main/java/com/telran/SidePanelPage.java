@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class SidePanelPage extends BasePage{
+public class SidePanelPage extends BasePage {
 
     public SidePanelPage(WebDriver driver) {
         super(driver);
@@ -19,38 +19,45 @@ public class SidePanelPage extends BasePage{
     @FindBy(css = ".show #item-3")
     WebElement profileButton;
 
+
     public ProfilePage selectProfile() {
-        clickWithJSExecutor(profileButton,0,500);
+        clickWithJSExecutor(profileButton, 0, 500);
         return new ProfilePage(driver);
     }
+
     @FindBy(xpath = "//span[.='Alerts']")
     WebElement alertsButton;
 
 
     public AlertsPage selectAlerts() {
-        clickWithJSExecutor(alertsButton,0,300);
+        clickWithJSExecutor(alertsButton, 0, 300);
         return new AlertsPage(driver);
 
     }
+
     @FindBy(xpath = "//span[.='Browser Windows']")
     WebElement browserWindowsButton;
 
     public BrowserWindowsPage selectBrowserWindows() {
-        clickWithJSExecutor(browserWindowsButton,0,200);
+        clickWithJSExecutor(browserWindowsButton, 0, 200);
         return new BrowserWindowsPage(driver);
     }
+
     @FindBy(xpath = "//span[.='Buttons']")
     WebElement buttons;
 
     public ButtonsPage selectButtons() {
-        clickWithJSExecutor(buttons,0,600);
+        clickWithJSExecutor(buttons, 0, 500);
         return new ButtonsPage(driver);
     }
+
+
     @FindBy(xpath = "//span[.='Select Menu']")
     WebElement selectMenu;
 
     public SelectMenuPage getSelectMenu() {
-        clickWithJSExecutor(selectMenu,0,500);
-        return new SelectMenuPage(driver);
+        clickWithJSExecutor(selectMenu,0,600);
+        SelectMenuPage selectMenuPage = new SelectMenuPage(driver);
+        return selectMenuPage;
     }
 }
