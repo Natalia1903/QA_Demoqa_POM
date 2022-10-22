@@ -17,8 +17,36 @@ public class SelectTests extends TestBase {
 
     @Test
     public void oldStyleSelectMenuTest() {
+
         new SelectMenuPage(driver).oldStyleSelectTest("Blue");
     }
+    @Test
+    public void clickOnMultiSelectDropDownTest(){
+        new SelectMenuPage(driver).clickOnMultiSelectDropDown("Green").deselect()
+                .clickOnMultiSelectDropDown1("Red","Blue","Green");
+    }
+
+    @Test
+    public void standardMultiSelectTest(){
+        new SelectMenuPage(driver).clickStandardMultiSelect();
+
+
+    }
+    @Test
+    public void  standardSelectValueTest(){
+        new SelectMenuPage(driver).clickOnSelectOption("Group 1,option 2");
+    }
+
+    @Test
+    public void  SelectTitleTest(){
+
+        new SelectMenuPage(driver).clickOnSelectOneTitle("Dr.");
+    }
+
+
+
+
+
 }
 
 

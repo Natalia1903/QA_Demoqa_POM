@@ -18,6 +18,7 @@ public class BasePage {
     }
 
     public void click(WebElement element) {
+
         element.click();
     }
 
@@ -57,6 +58,7 @@ public class BasePage {
         element.click();
     }
 
+
     public void pause(int millis) {
         try {
             Thread.sleep(millis);
@@ -77,9 +79,36 @@ public class BasePage {
 
 
     public void acceptAlert() {
+
         driver.switchTo().alert().accept();
     }
 
+
+    protected void hideFooter() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.querySelector('footer').style.display='none'");
+
+
+    }
+    protected void hideAd() {
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("document.getElementById('adplus-anchor').style.display='none'");
+    }
+    public void closeBanner() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.getElementById('close-fixedban').style.display='none'");
+    }
+    public void clickWithRectangle(WebElement element,int i, int h) {
+
+        Rectangle rectangle = element.getRect();
+
+        int offSetX = rectangle.getWidth()/i;
+        int offSetY = rectangle.getHeight()/h;
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).perform();
+        actions.moveByOffset(-offSetX,-offSetY).click().perform();
+    }
 }
 
 

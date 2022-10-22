@@ -1,5 +1,4 @@
 package com.telran.tests.elemens;
-
 import com.telran.HomePage;
 import com.telran.SidePanelPage;
 import com.telran.pages.elements.ButtonsPage;
