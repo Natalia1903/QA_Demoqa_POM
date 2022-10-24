@@ -26,8 +26,8 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    @AfterMethod (enabled = false)
-    public void tierDown () {
+    @AfterMethod(enabled = false)
+    public void tierDown() {
         driver.quit();
     }
 

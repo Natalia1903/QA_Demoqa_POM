@@ -11,7 +11,7 @@ public class DataProviders {
 
 
     @DataProvider
-    public Iterator<Object[]> usingFile () throws IOException {
+    public Iterator<Object[]> usingFile() throws IOException {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(
                 DataProviders.class.getResourceAsStream("/data.csv")
@@ -28,5 +28,21 @@ public class DataProviders {
         reader.close();
         return userData.iterator();
 
+    }
+
+    @DataProvider
+    public Iterator<Object[]> usingFile1() throws IOException {
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(DataProviders.class.getResourceAsStream("/data1.csv")));
+
+        List<Object[]> userData = new ArrayList<Object[]>();
+        String line = reader.readLine();
+
+        while (line != null) {
+            userData.add(line.split(","));
+            line = reader.readLine();
+        }
+        reader.close();
+        return userData.iterator();
     }
 }
