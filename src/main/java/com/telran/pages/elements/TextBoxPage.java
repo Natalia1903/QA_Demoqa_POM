@@ -40,11 +40,11 @@ public class TextBoxPage extends BasePage {
         type(currentAddressField, currentAddress);
         type(permAddress, permanentAddress);
         pause(700);
-        submit.click();
+        clickWithJSExecutor(submit,0,400);
         return this;
     }
-@FindBy(id="output")
-WebElement output;
+    @FindBy(id="output")
+     WebElement output;
 
     public String getOutputAddress() {
         pause(700);
