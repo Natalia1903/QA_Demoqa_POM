@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Demoqa_POM" />
+        <module name="QA_Demoqa_POM" />
       </profile>
     </annotationProcessing>
   </component>
