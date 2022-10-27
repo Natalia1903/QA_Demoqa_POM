@@ -42,6 +42,7 @@ public class ButtonsPage extends BasePage {
     WebElement dynamicClickMessage;
 
     public String getTextDynamicClick() {
+
         return dynamicClickMessage.getText();
     }
 }

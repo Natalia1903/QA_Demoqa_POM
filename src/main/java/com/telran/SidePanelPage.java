@@ -5,10 +5,8 @@ import com.telran.pages.alertsWindows.BrowserWindowsPage;
 import com.telran.pages.alertsWindows.FramePage;
 import com.telran.pages.alertsWindows.NestedFramesPage;
 import com.telran.pages.bookstore.ProfilePage;
-import com.telran.pages.elements.BrokenLinksImages;
+import com.telran.pages.elements.*;
 import com.telran.pages.elements.ButtonsPage;
-import com.telran.pages.elements.LinksPage;
-import com.telran.pages.elements.TextBoxPage;
 import com.telran.pages.forms.PracticeFormPage;
 import com.telran.pages.interactions.DragAndDropPage;
 import com.telran.pages.widgets.MenuPage;
@@ -124,9 +122,6 @@ public class SidePanelPage extends BasePage {
         return new TextBoxPage(driver);
     }
 
-    public LinksPage selectLinks() {
-        clickWithJSExecutor();
-    }
 
     @FindBy(xpath = "//span[.='Broken Links - Images']")
     WebElement brokenLinksImages;
@@ -135,5 +130,23 @@ public class SidePanelPage extends BasePage {
         clickWithJSExecutor(brokenLinksImages,0,500);
         return new BrokenLinksImages(driver);
     }
+    @FindBy(xpath = "//span[.='Links']")
+    WebElement links;
+
+    public LinksPage selectLinks() {
+        clickWithJSExecutor(links,0,500);
+        return new LinksPage(driver);
+    }
+    @FindBy(xpath = "//span[.='Upload and Download']")
+    WebElement uploadAndDownload;
+
+    public UploadAndDowloadPage selectUploadAndDownload() {
+        clickWithJSExecutor(uploadAndDownload,0,500);
+        return new UploadAndDowloadPage(driver);
+    }
+
+
+    //M2_Home
+    // in path -->%M2_HOME/bin
 }
 
