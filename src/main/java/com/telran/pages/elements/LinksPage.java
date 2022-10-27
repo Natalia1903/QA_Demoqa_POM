@@ -57,12 +57,16 @@ public class LinksPage extends BasePage {
         }
 
     }
-   /* @FindBy(id="moved")
+    @FindBy(id="moved")
     WebElement moved;
 
-    public LinksPage getTextMovedClick() {
-        return new click().getText();
-    }*/
+    @FindBy(id="linkResponse")
+    WebElement linkResponse;
+
+    public String getTextMoved() {
+        clickWithJSExecutor(moved,0,400);
+        return linkResponse.getText();
+    }
 
 
 

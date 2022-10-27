@@ -22,7 +22,7 @@ public class LinksTest extends TestBase {
     @Test
     public void checkLinksTest (){
         new LinksPage(driver).checkAllLinks().checkBrokenLinks();
-        //Assert.assertTrue(new LinksPage(driver).getTextMovedClick().contains("staus 301");
+        Assert.assertTrue(new LinksPage(driver).getTextMoved().contains("Moved Permanently"));
 
     }
 
