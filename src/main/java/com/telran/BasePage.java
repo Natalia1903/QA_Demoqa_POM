@@ -66,7 +66,7 @@ public class BasePage {
             e.printStackTrace();
         }
     }
-    public String takeScreenshot(){
+    public void takeScreenshot(){
         File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         File screenshot = new File("screenshots/screen" + System.currentTimeMillis() + ".png");
         try {
@@ -74,7 +74,7 @@ public class BasePage {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return screenshot.getAbsolutePath();
+        screenshot.getAbsolutePath();
     }
 
 
@@ -108,6 +108,17 @@ public class BasePage {
         Actions actions = new Actions(driver);
         actions.moveToElement(element).perform();
         actions.moveByOffset(-offSetX,-offSetY).click().perform();
+    }
+
+    public void takeScreenshotListener(String pathToFile){
+        File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(pathToFile);
+        try {
+            Files.copy(tmp,screenshot);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 }
 
