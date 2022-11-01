@@ -84,13 +84,13 @@ public class BasePage {
     }
 
 
-    protected void hideFooter() {
+    public void hideFooter() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.querySelector('footer').style.display='none'");
 
 
     }
-    protected void hideAd() {
+    public void hideAd() {
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("document.getElementById('adplus-anchor').style.display='none'");
     }
@@ -120,6 +120,8 @@ public class BasePage {
         }
 
     }
+
+
 }
 
 
