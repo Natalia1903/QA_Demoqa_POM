@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Set" verbose="1" >
+    <test name="Set" >
+        <classes>
+
+            <class name="com.telran.tests.elemens.ButtonsTest"/>
+            <class name="com.telran.tests.forms.PracticeFormTests"/>
+            <class name="com.telran.tests.alertsWindows.FramesTests"/>
+
+        </classes>
+    </test>
+
+</suite>
