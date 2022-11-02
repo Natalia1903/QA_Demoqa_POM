@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-02T21:05:56 CET" name="Set" finished-at="2022-11-02T21:10:04 CET" duration-ms="248527">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T21:05:56 CET" name="Set" finished-at="2022-11-02T21:10:04 CET" duration-ms="248527">
+      <class name="com.telran.tests.alertsWindows.FramesTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:08:49 CET" name="init" finished-at="2022-11-02T21:09:01 CET" duration-ms="12348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:01 CET" name="startTest" finished-at="2022-11-02T21:09:01 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.alertsWindows.FramesTests.framesTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:01 CET" name="ensurePrecondition" finished-at="2022-11-02T21:09:06 CET" duration-ms="4394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="framesTest()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:06 CET" name="framesTest" finished-at="2022-11-02T21:09:09 CET" duration-ms="3455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- framesTest -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:09 CET" name="stopTest" finished-at="2022-11-02T21:09:09 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=framesTest status=SUCCESS method=FramesTests.framesTest()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:09 CET" name="init" finished-at="2022-11-02T21:09:23 CET" duration-ms="13373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:23 CET" name="startTest" finished-at="2022-11-02T21:09:23 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.alertsWindows.FramesTests.switchToFrameByIdTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:23 CET" name="ensurePrecondition" finished-at="2022-11-02T21:09:38 CET" duration-ms="15151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="switchToFrameByIdTest()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:38 CET" name="switchToFrameByIdTest" finished-at="2022-11-02T21:09:39 CET" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToFrameByIdTest -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:39 CET" name="stopTest" finished-at="2022-11-02T21:09:39 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switchToFrameByIdTest status=SUCCESS method=FramesTests.switchToFrameByIdTest()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:09:39 CET" name="init" finished-at="2022-11-02T21:10:00 CET" duration-ms="21440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:10:00 CET" name="startTest" finished-at="2022-11-02T21:10:00 CET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.alertsWindows.FramesTests.switchToFrameByIndexTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:10:00 CET" name="ensurePrecondition" finished-at="2022-11-02T21:10:04 CET" duration-ms="3917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="switchToFrameByIndexTest()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:10:04 CET" name="switchToFrameByIndexTest" finished-at="2022-11-02T21:10:04 CET" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToFrameByIndexTest -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df]" started-at="2022-11-02T21:10:04 CET" name="stopTest" finished-at="2022-11-02T21:10:04 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switchToFrameByIndexTest status=SUCCESS method=FramesTests.switchToFrameByIndexTest()[pri:0, instance:com.telran.tests.alertsWindows.FramesTests@1c5920df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.telran.tests.alertsWindows.FramesTests -->
+      <class name="com.telran.tests.forms.PracticeFormTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:06:49 CET" name="init" finished-at="2022-11-02T21:07:02 CET" duration-ms="12713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:07:02 CET" name="startTest" finished-at="2022-11-02T21:07:02 CET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.forms.PracticeFormTests.createNewStudentTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:07:02 CET" name="ensurePrecondition" finished-at="2022-11-02T21:07:10 CET" duration-ms="8322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="createNewStudentTest()[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:07:10 CET" name="createNewStudentTest" finished-at="2022-11-02T21:07:30 CET" duration-ms="19427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewStudentTest -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:07:30 CET" name="stopTest" finished-at="2022-11-02T21:07:30 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewStudentTest status=SUCCESS method=PracticeFormTests.createNewStudentTest()[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:07:30 CET" name="init" finished-at="2022-11-02T21:07:42 CET" duration-ms="12170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:07:42 CET" name="startTest" finished-at="2022-11-02T21:07:42 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.forms.PracticeFormTests.createNewStudentWithDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:07:42 CET" name="ensurePrecondition" finished-at="2022-11-02T21:07:49 CET" duration-ms="6677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="createNewStudentWithDataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:07:49 CET" name="createNewStudentWithDataProviderTest" data-provider="usingFile" finished-at="2022-11-02T21:08:07 CET" duration-ms="18510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Noua]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nati@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456783234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15 July 1982]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/Users/nataliaghibner/Desktop/Новая папка с объектами/Foto.png]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Berlin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewStudentWithDataProviderTest -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:08:07 CET" name="stopTest" finished-at="2022-11-02T21:08:07 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewStudentWithDataProviderTest status=SUCCESS method=PracticeFormTests.createNewStudentWithDataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:08:07 CET" name="init" finished-at="2022-11-02T21:08:19 CET" duration-ms="11683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:08:19 CET" name="startTest" finished-at="2022-11-02T21:08:19 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.forms.PracticeFormTests.createNewStudentWithDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:08:19 CET" name="ensurePrecondition" finished-at="2022-11-02T21:08:26 CET" duration-ms="6645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="createNewStudentWithDataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:08:26 CET" name="createNewStudentWithDataProviderTest" data-provider="usingFile" finished-at="2022-11-02T21:08:49 CET" duration-ms="23529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sargi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sigua]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sergi@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[57484839395]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[16 July1983]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/Users/nataliaghibner/Desktop/Новая папка с объектами/Foto.png]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Karlsruhe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewStudentWithDataProviderTest -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89]" started-at="2022-11-02T21:08:49 CET" name="stopTest" finished-at="2022-11-02T21:08:49 CET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewStudentWithDataProviderTest status=SUCCESS method=PracticeFormTests.createNewStudentWithDataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.telran.tests.forms.PracticeFormTests@350aac89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.telran.tests.forms.PracticeFormTests -->
+      <class name="com.telran.tests.elemens.ButtonsTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:05:56 CET" name="init" finished-at="2022-11-02T21:06:07 CET" duration-ms="11651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:07 CET" name="startTest" finished-at="2022-11-02T21:06:07 CET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.elemens.ButtonsTest.clickMeTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:07 CET" name="ensurePrecondition" finished-at="2022-11-02T21:06:15 CET" duration-ms="7275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="clickMeTest()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:15 CET" name="clickMeTest" finished-at="2022-11-02T21:06:15 CET" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMeTest -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:15 CET" name="stopTest" finished-at="2022-11-02T21:06:15 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickMeTest status=SUCCESS method=ButtonsTest.clickMeTest()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:15 CET" name="init" finished-at="2022-11-02T21:06:26 CET" duration-ms="11387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:26 CET" name="startTest" finished-at="2022-11-02T21:06:26 CET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.elemens.ButtonsTest.doubleClickTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:26 CET" name="ensurePrecondition" finished-at="2022-11-02T21:06:32 CET" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="doubleClickTest()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:32 CET" name="doubleClickTest" finished-at="2022-11-02T21:06:32 CET" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleClickTest -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:32 CET" name="stopTest" finished-at="2022-11-02T21:06:32 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doubleClickTest status=SUCCESS method=ButtonsTest.doubleClickTest()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:32 CET" name="init" finished-at="2022-11-02T21:06:43 CET" duration-ms="10600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:43 CET" name="startTest" finished-at="2022-11-02T21:06:43 CET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.telran.tests.elemens.ButtonsTest.rightClick()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ensurePrecondition()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:43 CET" name="ensurePrecondition" finished-at="2022-11-02T21:06:47 CET" duration-ms="4509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensurePrecondition -->
+        <test-method signature="rightClick()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:47 CET" name="rightClick" finished-at="2022-11-02T21:06:49 CET" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightClick -->
+        <test-method is-config="true" signature="stopTest(org.testng.ITestResult)[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611]" started-at="2022-11-02T21:06:49 CET" name="stopTest" finished-at="2022-11-02T21:06:49 CET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rightClick status=SUCCESS method=ButtonsTest.rightClick()[pri:0, instance:com.telran.tests.elemens.ButtonsTest@75437611] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.telran.tests.elemens.ButtonsTest -->
+    </test> <!-- Set -->
+  </suite> <!-- Set -->
+</testng-results>
